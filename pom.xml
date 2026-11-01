@@ -6,13 +6,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.rushi</groupId>
 	<artifactId>student-reg-webapp</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>war</packaging>
 	<properties>
 		<java.version>11</java.version>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
-		<sonar.host.url>http://172.31.8.138:9000/</sonar.host.url>
+		<sonar.host.url>http://40.192.24.141:9000/</sonar.host.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 		<sonar.sources>src/main/java</sonar.sources>
@@ -21,15 +21,14 @@
 		<sonar.exclusions>**/*.css</sonar.exclusions>
 	</properties>
 
-
-     <distributionManagement>
+    <distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<url>http://172.31.9.88:8081/repository/student-reg-webapp/</url>
+			<url>http://172.31.4.127:8081/repository/student-reg-webapp/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://172.31.9.88:8081/repository/student-reg-webapp-snapshots/</url>
+			<url>http://172.31.4.127:8081/repository/student-reg-webapp-snapshot/</url>
 		</snapshotRepository>
     </distributionManagement>
 
